@@ -86,7 +86,6 @@ void DrawingApp::draw()
 }
 
 void DrawingApp::saveImage() {
-
     writeImage("0001.png", Surface8u(_fbo->getColorTexture()->createSource()));
 }
 

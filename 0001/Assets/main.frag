@@ -29,18 +29,4 @@ void main( void ) {
     float rnd3 = rand(vec2(x,y+1));
     
     oColor = vec4(rnd1, rnd2, rnd3, 1);
-    
-//    if (x % 2 == 0) {
-//        if (y % 2 == 0) {
-//            oColor = bk;
-//        }else{
-//            oColor = wh;
-//        }
-//    }else {
-//        if (y % 2 == 1) {
-//            oColor = bk;
-//        }else{
-//            oColor = wh;
-//        }
-//    }
 }
