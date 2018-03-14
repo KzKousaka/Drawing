@@ -23,11 +23,6 @@ vec3 hsv2rgb(vec3 c)
     return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
 }
 
-float getSin(float rad) {
-    float y = sin(rad) * 0.2;
-    return y;
-}
-
 void main( void ) {
     float rad   = uv.x * 3.1415 * 3;
     float   y  = (uv.y+sin(rad)* 0.02 - cos(rad) * 0.1);
