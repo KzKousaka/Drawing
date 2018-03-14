@@ -1,5 +1,6 @@
-# sin wave stripe
+# circular stripe
 
-![sin wave stripe](../archive/0004.png)
+![circular stripe](../archive/0005.png)
 
-Created based on 0003.
+Drawing circular stripe.
+It is interesting to draw a circle without trigonometric functions.
