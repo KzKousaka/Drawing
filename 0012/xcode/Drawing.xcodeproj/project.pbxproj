@@ -263,7 +263,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
-				PRODUCT_BUNDLE_IDENTIFIER = work.kousaka.drawing.0011;
+				PRODUCT_BUNDLE_IDENTIFIER = work.kousaka.drawing.0012;
 				PRODUCT_NAME = Drawing;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
@@ -291,7 +291,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
-				PRODUCT_BUNDLE_IDENTIFIER = work.kousaka.drawing.0011;
+				PRODUCT_BUNDLE_IDENTIFIER = work.kousaka.drawing.0012;
 				PRODUCT_NAME = Drawing;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
