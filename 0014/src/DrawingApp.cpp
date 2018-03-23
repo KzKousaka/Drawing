@@ -86,7 +86,7 @@ void DrawingApp::draw()
 }
 
 void DrawingApp::saveImage() {
-//    writeImage("0014.png", Surface8u(_fbo->getColorTexture()->createSource()));
+    writeImage("0014.png", Surface8u(_fbo->getColorTexture()->createSource()));
 }
 
 CINDER_APP( DrawingApp, RendererGl(), [&]( App::Settings *settings ) {
